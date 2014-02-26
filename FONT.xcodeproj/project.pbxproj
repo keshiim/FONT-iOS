@@ -18,6 +18,7 @@
 		8493BFA8178BD6EC00AA8609 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8493BFA7178BD6EC00AA8609 /* Default@2x.png */; };
 		8493BFAA178BD6EC00AA8609 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8493BFA9178BD6EC00AA8609 /* Default-568h@2x.png */; };
 		8493BFAD178BD6EC00AA8609 /* FONT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8493BFAB178BD6EC00AA8609 /* FONT.xcdatamodeld */; };
+		8493BFB5178BDD0400AA8609 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493BFB4178BDD0400AA8609 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		8493BFA7178BD6EC00AA8609 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8493BFA9178BD6EC00AA8609 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8493BFAC178BD6EC00AA8609 /* FONT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FONT.xcdatamodel; sourceTree = "<group>"; };
+		8493BFB3178BDD0400AA8609 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8493BFB4178BDD0400AA8609 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				8493BFA3178BD6EC00AA8609 /* AppDelegate.m */,
 				8493BFAB178BD6EC00AA8609 /* FONT.xcdatamodeld */,
 				8493BF9A178BD6EC00AA8609 /* Supporting Files */,
+				8493BFB3178BDD0400AA8609 /* RootViewController.h */,
+				8493BFB4178BDD0400AA8609 /* RootViewController.m */,
 			);
 			path = FONT;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				8493BFA0178BD6EC00AA8609 /* main.m in Sources */,
 				8493BFA4178BD6EC00AA8609 /* AppDelegate.m in Sources */,
 				8493BFAD178BD6EC00AA8609 /* FONT.xcdatamodeld in Sources */,
+				8493BFB5178BDD0400AA8609 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +256,13 @@
 		8493BFB1178BD6EC00AA8609 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: zheng mingjun (DA34GU7SCD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FONT/FONT-Prefix.pch";
 				INFOPLIST_FILE = "FONT/FONT-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DA81F8F6-DA56-4320-8CC8-746A99B02233";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DA81F8F6-DA56-4320-8CC8-746A99B02233";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,10 +270,13 @@
 		8493BFB2178BD6EC00AA8609 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: zheng mingjun (DA34GU7SCD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FONT/FONT-Prefix.pch";
 				INFOPLIST_FILE = "FONT/FONT-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DA81F8F6-DA56-4320-8CC8-746A99B02233";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DA81F8F6-DA56-4320-8CC8-746A99B02233";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,6 +300,7 @@
 				8493BFB2178BD6EC00AA8609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
